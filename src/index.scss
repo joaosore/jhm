@@ -1,6 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./global/fonts.scss";
 
+@import "./scss/header.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@
 }
 
 body {
-  font-family: "Circular Std";
+  font-family: "Futura Std";
   font-size: 16px;
   -webkit-font-smoothing: antialiased !important;
 }
