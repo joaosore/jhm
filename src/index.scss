@@ -1,7 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+
 @import "./global/fonts.scss";
 
+@import "./scss/pages/Home/inicial.scss";
+
 @import "./scss/header.scss";
+
+@import "./scss/component/button.scss";
+@import "./scss/component/carousel.scss";
 
 * {
   margin: 0;
