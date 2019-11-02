@@ -5,7 +5,7 @@ export function init_carousel() {
     loop: false,
     margin: 10,
     nav: true,
-    dots: true,
+    dots: false,
     items: 1
   });
 }
