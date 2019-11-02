@@ -20,7 +20,7 @@
         }
       }
       .imagem-pesquisa {
-        height: 50vh;
+        height: 65vh;
         img {
           width: 100%;
           height: 100%;
@@ -28,10 +28,10 @@
         }
       }
       .texto {
-        height: 50vh;
+        height: 65vh;
         background-color: #fff;
         .conteudo {
-          width: 70%;
+          width: 100%;
           height: 100%;
           display: flex;
           align-items: center;
@@ -91,6 +91,7 @@
         .texto {
           height: auto;
           .botao {
+            padding-top: 20px;
             padding-bottom: 20px;
           }
         }
