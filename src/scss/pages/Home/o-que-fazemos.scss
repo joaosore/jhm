@@ -1,18 +1,14 @@
 #o-que-fazemos {
-  .conteiner-fluid {
+  .o-que-fazemos {
     :nth-child(2) {
       flex-direction: row-reverse;
     }
-    .row {
+    .principal {
       position: relative;
       background-color: #fff;
       padding: 0;
       width: 100%;
       margin: 0;
-      [class*="col-"] {
-        padding-left: 0;
-        padding-right: 0;
-      }
       &:nth-child(2),
       &:nth-child(4) {
         .conteudo {
@@ -77,8 +73,8 @@
 
 @media screen and (max-width: 991px) {
   #o-que-fazemos {
-    .conteiner-fluid {
-      .row {
+    .o-que-fazemos {
+      .principal {
         &:nth-child(2),
         &:nth-child(4) {
           .conteudo {
@@ -97,8 +93,8 @@
         }
       }
     }
-    .conteiner-fluid {
-      .row {
+    .o-que-fazemos {
+      .principal {
         .texto {
           .conteudo {
             width: 100%;
@@ -111,11 +107,8 @@
 
 @media screen and (max-width: 767px) {
   #o-que-fazemos {
-    .conteiner-fluid {
-      .row {
-        [class*="col-"] {
-          padding-right: 0;
-        }
+    .o-que-fazemos {
+      .principal {
         .imagem-pesquisa {
           padding: 15px;
         }

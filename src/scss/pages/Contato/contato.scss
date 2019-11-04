@@ -1,0 +1,70 @@
+#contato {
+  .contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      font-family: "Futura Std";
+      color: #000;
+      font-size: 1.125em;
+      text-align: center;
+      max-width: 750px;
+      width: 100%;
+      margin: 0;
+      padding: 72px 15px 63px 15px;
+    }
+    .nome {
+      max-width: 561px;
+      width: 100%;
+      height: 45px;
+      border: 0;
+      padding: 17px 0px 11px 19px;
+      background-color: #f9f9f9;
+      font-family: "Futura Std";
+      font-size: 0.8125em;
+      margin-bottom: 31px;
+    }
+    .email {
+      max-width: 561px;
+      width: 100%;
+      height: 45px;
+      border: 0;
+      padding: 17px 0px 11px 19px;
+      background-color: #f9f9f9;
+      font-family: "Futura Std";
+      font-size: 0.8125em;
+      margin-bottom: 31px;
+    }
+    .mensagem {
+      max-width: 561px;
+      width: 100%;
+      height: 45px;
+      border: 0;
+      padding: 17px 0px 66px 19px;
+      background-color: #f9f9f9;
+      font-family: "Futura Std";
+      font-size: 0.8125em;
+      margin-bottom: 31px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 132px;
+      width: 100%;
+      height: 45px;
+      background-color: #000000;
+      color: #fff;
+      font-family: "Futura Std";
+      font-size: 0.75em;
+      transition: all 350ms ease-in-out;
+      margin-bottom: 51px;
+      cursor: pointer;
+      &:hover {
+        text-decoration: none;
+        color: #5f5f5f;
+      }
+    }
+  }
+}

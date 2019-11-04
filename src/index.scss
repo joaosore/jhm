@@ -8,12 +8,28 @@
 @import "./scss/pages/Home/video.scss";
 @import "./scss/pages/Home/o-que-fazemos.scss";
 @import "./scss/pages/Home/portfolio.scss";
-@import "./scss/pages/Home/footer.scss";
+
+@import "./scss/pages/Sobre/titulo-sobre.scss";
+@import "./scss/pages/Sobre/informação.scss";
+
+@import "./scss/pages/O-que-fazemos/titulo-o-que-fazemos.scss";
+
+@import "./scss/pages/Imprensa/titulo-outros.scss";
+@import "./scss/pages/Imprensa/releases.scss";
+@import "./scss/pages/Imprensa/entrevistas.scss";
+@import "./scss/pages/Imprensa/poadcast.scss";
+
+@import "./scss/pages/Portfolio/pdfs.scss";
+
+@import "./scss/pages/Contato/contato.scss";
+@import "./scss/pages/Contato/assessoria.scss";
 
 @import "./scss/header.scss";
+@import "./scss/footer.scss";
 
 @import "./scss/component/button.scss";
 @import "./scss/component/carousel.scss";
+@import "./scss/component/acordion.scss";
 
 * {
   margin: 0;

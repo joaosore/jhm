@@ -6,6 +6,6 @@ export function init_carousel() {
     margin: 10,
     nav: true,
     dots: false,
-    items: 1
+    items: 1,
   });
 }
